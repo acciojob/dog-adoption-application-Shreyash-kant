@@ -1,2 +1,21 @@
+*{
+	box-sizing:border-box;
+}
+form{
+	margin: 10px auto;
+	border: 1px solid black;
+	padding:20px;
+	display:flex;
+	flex-direction:column;
+	gap:5px;
+}
+#address{
+	/* height:20px; */
+	border:1px solid black;
+	padding:10px
+}
+#checkbox{
+	align-self:flex-start;
+}
 
 /* Your CSS Code here. */
